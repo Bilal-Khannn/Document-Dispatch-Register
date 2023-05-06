@@ -20,7 +20,9 @@ const DispatchDoc = () => {
 
   return (
     <div className=" h-screen w-full ">
-      <h1 className="text-2xl ml-5">Dispatch Document</h1>
+      <h1 className="text-2xl ml-5 inline-block border-b-8 border-emerald-500 rounded-lg">
+        Dispatch Document
+      </h1>
       <form onSubmit={handleSubmit} className="mt-14 w-5/6 ml-5">
         <div className="flex mb-4">
           <div className="flex-1 mr-2">

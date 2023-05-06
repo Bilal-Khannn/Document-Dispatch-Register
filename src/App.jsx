@@ -1,13 +1,13 @@
-import DispatchDoc from "./components/Dispatchdoc";
 import Nav from "./components/Nav";
 import Dashboard from "./components/Dashboard";
+import Signin from "./components/Signin";
 
 const App = () => {
   return (
     <div>
-      {/* <DispatchDoc /> */}
       <Nav />
       <Dashboard />
+      {/* <Signin /> */}
     </div>
   );
 };

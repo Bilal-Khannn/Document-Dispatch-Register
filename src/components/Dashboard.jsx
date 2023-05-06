@@ -62,7 +62,7 @@ function Dashboard() {
           </button>
           <button
             className={`flex flex-col py-4 px-4 text-customGreenBlue text-lg font-medium rounded-md hover:bg-emerald-500 hover:text-white transition duration-300 ${
-              selectedOption === "viewProjectProgress"
+              selectedOption === "scanDoc"
                 ? "bg-emerald-500 text-white"
                 : ""
             }`}
